@@ -1,0 +1,97 @@
+/* CSS CODE  */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.SEARCH_IMG {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* input style */
+input {
+    width: 500px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: url(/img/Google\ icon.png)no-repeat, url(/img/google\ search\ img.png)no-repeat;
+    background-position: right 15px center, left 15px center;
+    background-size: 29px, 29px;
+
+}
+
+input:hover {
+    box-shadow: 2px 3px 4px 2px #ccc;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 3px 4px 2px #ccc;
+}
+
+.input_search {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 29px;
+    margin-left: 12px;
+    padding: 10px 17px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    border: 0px solid #92c9ff;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: 0.4s;
+    opacity: 0.9;
+
+}
+
+button:hover {
+    box-shadow: 1px 4px 3px 3px rgb(203, 76, 241);
+}
+
+/* languages */
+ol.launguages {
+    list-style-type: none;
+    margin-top: 40px;
+
+}
+
+ol.launguages li {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    margin-right: 10px;
+    display: inline;
+    list-style: none;
+}
+
+ol.launguages li>a {
+    text-decoration: none;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 17px;
+    background-color: #fa9d9d;
+    width: 100%;
+    cursor: pointer;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+footer>ol>li {
+    display: inline;
+    padding-right: 15px;
+    font-size: 18;
+}
+
